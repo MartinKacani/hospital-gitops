@@ -3,9 +3,9 @@ kind: Kustomization
 
 labels:
 - pairs:
-    app.kubernetes.io/part-of: wac-hospital
+    app.kubernetes.io/part-of: wac-hospital-project
 
-namespace: wac-hospital
+namespace: wac-hospital-project
 
 resources:
 - prepare.kustomization.yaml
