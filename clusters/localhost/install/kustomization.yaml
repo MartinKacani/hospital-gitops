@@ -9,3 +9,6 @@ labels:
 
 resources:
 - ../../../apps/tjmk-hospital-ufe
+
+components:
+- ../../../components/version-developers
