@@ -8,6 +8,10 @@ spec:
   attributes:
     - name: base-path
       value: /tjmk-hospital-wl/
+    - name: api-base
+      value: http://localhost:5000/api
+    - name: hospital-id
+      value: bobulova
   displayRules:
     - allOf:
       - context-name: main-content
