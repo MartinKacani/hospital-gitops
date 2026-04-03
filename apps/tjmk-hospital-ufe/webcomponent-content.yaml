@@ -4,10 +4,10 @@ metadata:
   name: tjmk-hospital-ufe-content
 spec:
   microFrontend: tjmk-hospital-ufe
-    element: tjmk-hospital-wl-app
-    attributes:
-      - name: base-path
-        value: /tjmk-hospital-wl/
+  element: tjmk-hospital-wl-app
+  attributes:
+    - name: base-path
+      value: /tjmk-hospital-wl/
   displayRules:
     - allOf:
       - context-name: main-content
