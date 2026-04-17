@@ -14,4 +14,6 @@ resources:
 - git-repository.yaml
 - hospital-ufe.image-repository.yaml
 - hospital-ufe.image-policy.yaml
+- hospital-webapi.image-repository.yaml
+- hospital-webapi.image-policy.yaml
 - image-update-automation.yaml
