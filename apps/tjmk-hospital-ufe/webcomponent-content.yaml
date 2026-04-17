@@ -9,7 +9,7 @@ spec:
     - name: base-path
       value: /tjmk-hospital-wl/
     - name: api-base
-      value: http://localhost:30081/api
+      value: /tjmk-api
     - name: hospital-id
       value: bobulova
   displayRules:
