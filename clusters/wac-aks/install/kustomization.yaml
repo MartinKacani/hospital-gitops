@@ -12,6 +12,7 @@ labels:
 
 resources:
 - ../../../apps/tjmk-hospital-ufe
+- ../../../apps/tjmk-hospital-webapi
 
 
 components:
