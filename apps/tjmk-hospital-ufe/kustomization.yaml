@@ -12,3 +12,4 @@ labels:
 - pairs:
     app.kubernetes.io/component: tjmk-hospital-ufe
     wac-fiit.github.io/component: frontend
+  includeTemplates: true

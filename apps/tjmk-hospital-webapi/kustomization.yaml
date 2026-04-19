@@ -10,6 +10,7 @@ labels:
 - pairs:
     app.kubernetes.io/component: tjmk-hospital-webapi
     wac-fiit.github.io/component: backend
+  includeTemplates: true
 
 patches:
 - path: patches/hospital-webapi.deployment.yaml
