@@ -10,6 +10,7 @@ labels:
 resources:
 - ../../../apps/tjmk-hospital-ufe
 - ../../../apps/tjmk-hospital-webapi
+- ../../../apps/mongo-express
 
 patches:
 - path: patches/hospital-webapi.service.yaml

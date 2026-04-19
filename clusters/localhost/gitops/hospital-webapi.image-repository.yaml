@@ -4,5 +4,5 @@ metadata:
   name: hospital-webapi
   namespace: wac-hospital-project
 spec:
-  image: martinkacani/hospital-webapi
+  image: martinkacani/hospital-wl-webapi
   interval: 1m0s
