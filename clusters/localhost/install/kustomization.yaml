@@ -9,6 +9,11 @@ labels:
 
 resources:
 - ../../../apps/tjmk-hospital-ufe
+- ../../../apps/tjmk-hospital-webapi
+
+patches:
+- path: patches/hospital-webapi.service.yaml
 
 components:
 - ../../../components/version-developers
+- https://github.com/MartinKacani/hospital-webapi//deployments/kustomize/components/mongodb
