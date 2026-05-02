@@ -7,16 +7,16 @@ spec:
   element: polyfea-md-app # element, ktorý bude vložený na stránku
   attributes: # atribúty elementu polyfea-md-app
     - name: headline
-      value: Zoznam čakajúcich tjmk
+      value: MedBed - Hospitalizácie tjmk
     - name: short-headline
-      value: Zoznam čakajúcich tjmk
+      value: MedBed tjmk
     - name: supporting-text
       value: |
-        Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii
+        Spravuje objednávky a hospitalizačné pobyty s priradením lôžka
     - name: material-icon
-      value: home_health
+      value: bed
     - name: href # presmerovanie po kliknutí na element polyfea-md-app
-      value: ./tjmk-hospital-wl
+      value: ./tjmk-medbed
   priority: 10
   displayRules: # pravidlá, kde sa má element vložiť v obálke
     - anyOf:

@@ -4,15 +4,15 @@ metadata:
   name: tjmk-hospital-ufe-content
 spec:
   microFrontend: tjmk-hospital-ufe
-  element: tjmk-hospital-wl-app
+  element: tjmk-medbed-app
   attributes:
     - name: base-path
-      value: /tjmk-hospital-wl/
+      value: /tjmk-medbed/
     - name: api-base
       value: /tjmk-api
-    - name: hospital-id
-      value: bobulova
+    - name: department-id
+      value: cardiology
   displayRules:
     - allOf:
       - context-name: main-content
-      - path: "^(\\.?/)?tjmk-hospital-wl(/.*)?$"
+      - path: "^(\\.?/)?tjmk-medbed(/.*)?$"
