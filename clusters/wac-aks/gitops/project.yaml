@@ -3,8 +3,8 @@ kind: Project
 metadata:
   name: tjmk-hospital # napr. <pfx>-ambulance-wl
 spec:
-  title: Zoznam čakajúcich tjmk # napr. "Zoznam čakajúcich <pfx>"
-  description: Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii # napr. "Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii"
+  title: MedBed - hospitalizácie tjmk # napr. "Zoznam čakajúcich <pfx>"
+  description: Spravuje objednávky a hospitalizačné pobyty s priradením lôžka
   authors: "Tomáš Jágerský, Martin Kačáni" # Zadajte mená autorov
   azureLink: ""
   frontendRepoUrl: "https://github.com/MartinKacani/hospital-ufe"
