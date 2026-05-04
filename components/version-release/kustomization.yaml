@@ -6,4 +6,4 @@ images:
   newTag: 1.2.13  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
 - name: martinkacani/hospital-wl-webapi
   newName: martinkacani/hospital-wl-webapi
-  newTag: 1.2.6
+  newTag: 1.2.7
